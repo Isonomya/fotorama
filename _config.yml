@@ -1,24 +1,20 @@
 # Site settings
-title: PHOTORAMA
-email: ""
+title: isonomia
+email: "contact[@]isonomia.fr"
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+url: "http://127.0.0.1:4000"
+baseurl: "/isonomia"
+facebook_username: "isonomiapure"
+twitter_username: "isonomia_pure"
+instagram_username: "isonomia_pure"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   isonomia
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Decolonial Antiraciste Feministe 
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +29,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://isonomya.github.io/isonomia/gallery/"  
+  - JOURNAL: "https://isonomya.github.io/isonomia/journal/"
+  - ABOUT: "https://isonomya.github.io/isonomia/about/"
 
 # All translation keys
 translations:
@@ -50,15 +46,16 @@ port:             	 4000
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+# permalink: pretty
 paginate: 5
 paginate_path: "/journal/page:num/"
-# permalink: "/journal/:title/"
+permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+plugins: [jekyll-paginate]
 
 # SiteMap
 sitemap:
