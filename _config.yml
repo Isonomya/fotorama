@@ -3,10 +3,11 @@ title: isonomia
 email: "contact[@]isonomia.fr"
 description: "Photo Journal"
 url: "https://isonomya.github.io"
-baseurl: "/isonomya"
+baseurl: ""
 facebook_username: "isonomiapure"
 twitter_username: "isonomia_pure"
 instagram_username: "isonomia_pure"
+youtube_username: "@Isonomia_pure"
 share: true
 
 # Owner/author information
@@ -29,9 +30,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://isonomya.github.io/isonomya/gallery/"
-  - JOURNAL: "https://isonomya.github.io/isonomya/journal/"
-  - ABOUT: "https://isonomya.github.io/isonomya/about/"
+  - GALLERY: "https://isonomya.github.io/gallery/"
+  - JOURNAL: "https://isonomya.github.io/journal/"
+  - ABOUT: "https://isonomya.github.io/about/"
 
 # All translation keys
 translations:
